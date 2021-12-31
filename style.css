@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #080707; */
+
+    font-family:'Times New Roman', Times, serif;
+}
+
+HTML,body{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    background-color: #000;
+}
+.container{
+    /* font-size: 62.5%; */
+    /* background-color:brown; */
+    background:linear-gradient(135deg,#2596be
+    ,#ffeb3b,#F44232);
+    height:100px;
+    width:460px;
+    border-radius: 10px;
+    animation: animate 1.5s linear infinite;
+
+    } 
+.container .wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% ,-50%);
+    background-color:#1b1b1b;
+    height: 85px;
+    width:430px;
+    text-align: center;
+
+}
+.container .wrapper #time{
+    line-height: 75px;
+    color: #fff;
+    font-size: 75px;
+    font-weight: 530;
+    letter-spacing: 1px;
+    background:linear-gradient(135deg,#14ffe9,#ffeb3b,#ff00e0);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    animation: animate 1.5s linear infinite;
+
+}
+@keyframes animate {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+
+   }
